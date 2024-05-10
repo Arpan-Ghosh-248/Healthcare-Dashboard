@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.container {
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.chart-container {
+    width: 100%;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.chart {
+    
+    padding: 10px;
+    min-height: 300px;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+    .container {
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+}
